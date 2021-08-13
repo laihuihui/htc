@@ -29,15 +29,17 @@
         │   │   │   ├── train2017
         │   │   │   ├── val2017
         ```
-- 权重及 log：[百度网盘](https://pan.baidu.com/s/1-Szst_ODOlNFtTkTBGdfWw) (提取码：laih )
+- 训练权重及日志：[百度网盘](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (提取码：yc1r )
     - 权重文件路径：
         ```angular2html
         htc
         ├── checkpoints
-        │   ├── htc_r50_fpn_1x_coco_resnet.pdparams (pretrain weight)
+        │   ├── htc_r50_fpn_1x_coco_resnet.pdparams (转换后的预训练权重参数)
+        │   ├── htc_r50_fpn_1x_coco.pdparams (转换后的官方权重参数)
         ├── output
         │   ├── htc_r50_fpn_1x_coco
-        │   │   ├── model_final.pdparams (final weight)
+        │   │   ├── model_final.pdparams (训练得到的权重参数)
+
         ```
 ---
 
