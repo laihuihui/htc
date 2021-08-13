@@ -47,7 +47,7 @@
 ```
 pip install -r requirements.txt
 # 训练
-python -m paddle.distributed.launch --gpus 0,1,2,3 tools/train.py -c configs/htc/htc_r50_fpn_1x_coco.yml -o --eval
+python -m paddle.distributed.launch --gpus 0,1,2,3 tools/train.py -c configs/htc/htc_r50_fpn_1x_coco.yml --eval
 # 验证
 python tools/eval.py -c configs/htc/htc_r50_fpn_1x_coco.yml -o weights=output/htc_r50_fpn_1x_coco/model_final.pdparams
 ```
