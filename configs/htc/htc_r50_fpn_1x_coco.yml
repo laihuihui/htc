@@ -8,8 +8,8 @@ _BASE_: [
 weights: output/htc_r50_fpn_1x_coco/model_final
 
 architecture: HybridTaskCascade
-#pretrain_weights: https://paddledet.bj.bcebos.com/models/pretrained/ResNet50_cos_pretrained.pdparams
-pretrain_weights: checkpoints/htc_r50_fpn_1x_coco_resnet.pdparams
+pretrain_weights: https://paddledet.bj.bcebos.com/models/pretrained/ResNet50_cos_pretrained.pdparams
+#pretrain_weights: checkpoints/htc_r50_fpn_1x_coco_resnet.pdparams
 
 
 HybridTaskCascade:
