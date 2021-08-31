@@ -208,7 +208,7 @@ For other information about the model, please refer to the following table:
 | Author | huihui lai|
 | Date | 2021.08 |
 | Framework version | Paddle 2.1.2 |
-| Application scenarios | Object detection |
+| Application scenarios | Object detection , Instance Segmentation |
 | Support hardware | GPU, CPU |
 | Download link | [Pre training model & Logs](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (access code: yc1r )  |
 | Online operation | [notebook](https://aistudio.baidu.com/aistudio/projectdetail/2253839) , [Script](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2270473)|

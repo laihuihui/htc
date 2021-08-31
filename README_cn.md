@@ -24,7 +24,7 @@
 
 ## 一、简介
 
-本项目基于paddledetection框架复现HTC。HTC是一种目标检测网络，在 cascade rcnn 基础上修改 cascade head（加入mask预测部分，mask之间加入信息传递），并增加分支利用语义分割信息提供空间上下文信息。
+本项目基于paddledetection框架复现HTC。HTC是一种目标检测实例分割网络，在 cascade rcnn 基础上修改 cascade head（加入mask预测部分，mask之间加入信息传递），并增加分支利用语义分割信息提供空间上下文信息。
 
 **论文:**
 - [1] K. Chen et al., “Hybrid Task Cascade for Instance Segmentation,” ArXiv190107518 Cs, Apr. 2019, Accessed: Aug. 31, 2021. [Online]. Available: http://arxiv.org/abs/1901.0751 <br>
@@ -189,7 +189,7 @@ python tools/eval.py -c $config_file -o weights=$weight_file
 | 发布者 | huihui lai|
 | 时间 | 2021.08 |
 | 框架版本 | Paddle 2.1.2 |
-| 应用场景 | 目标检测 |
+| 应用场景 | 目标检测、实例分割 |
 | 支持硬件 | GPU、CPU |
 | 下载链接 | [百度网盘](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (提取码：yc1r )  |
 | 在线运行 | [notebook任务](https://aistudio.baidu.com/aistudio/projectdetail/2253839) 、 [脚本任务](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2270473)|
