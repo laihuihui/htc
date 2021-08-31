@@ -64,17 +64,17 @@ Task.
 | **htc-R-50-FPN(mine)**  | Paddlepaddle | **42.6** | **37.9** |
 
 **Model & Log Download Address**
-[Baidu Web Drive](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (提取码：yc1r )
+[Baidu Web Drive](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (access code: yc1r )
 
 Detailed information：
 ```
 weights
 ├── checkpoints
-│   ├── htc_r50_fpn_1x_coco_resnet.pdparams (转换后的预训练权重参数)
-│   ├── htc_r50_fpn_1x_coco.pdparams (转换后的官方权重参数)
+│   ├── htc_r50_fpn_1x_coco_resnet.pdparams
+│   ├── htc_r50_fpn_1x_coco.pdparams
 ├── output
 │   ├── htc_r50_fpn_1x_coco
-│   │   ├── model_final.pdparams (训练得到的权重参数)
+│   │   ├── model_final.pdparams
 ```
 
 ## 3 Dataset
@@ -138,19 +138,19 @@ python tools/eval.py -c configs/htc/htc_r50_fpn_1x_coco.yml -o weights=output/ht
 ### 6.1 main structure
 
 ```
-├─config                          # 配置
-├─dataset                         # 数据集加载
-├─ppdet                           # 模型
-├─output                          # 权重结果输出
-├─log                             # 日志输出
-├─tools                           # 工具代码
-│   ├─eval.py                     # 评估
-│   ├─train.py                    # 训练
-│  README.md                      # 英文readme
-│  README_cn.md                   # 中文readme
-│  README_paddeldetection_cn.md   # pd英文readme
-│  README_paddeldetection_cn.md   # pd中文readme
-│  requirement.txt                # 依赖
+├─config                          
+├─dataset                         
+├─ppdet                           
+├─output                          
+├─log                             
+├─tools                           
+│   ├─eval.py                     
+│   ├─train.py                    
+│  README.md                      
+│  README_cn.md                   
+│  README_paddeldetection_cn.md   
+│  README_paddeldetection_cn.md   
+│  requirement.txt                
 ```
 
 ### 6.2 Part of the parameter description
@@ -197,7 +197,7 @@ Epoch: [0] [   0/7329] learning_rate: 0.000020 loss_rpn_cls: 0.691306 loss_rpn_r
 ```bash
 python tools/eval.py -c $config_file -o weights=$weight_file
 ```
-Pre training model: `weights/output/htc_r50_fpn_1x_coco/model_final.pdparams` in [Baidu Web Drive](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (提取码：yc1r )
+Pre training model: `weights/output/htc_r50_fpn_1x_coco/model_final.pdparams` in [Baidu Web Drive](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (access code: yc1r )
 
 ## 7 Model information
 
@@ -210,5 +210,5 @@ For other information about the model, please refer to the following table:
 | Framework version | Paddle 2.1.2 |
 | Application scenarios | Object detection |
 | Support hardware | GPU, CPU |
-| Download link | [Pre training model & Logs](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (提取码：yc1r )  |
+| Download link | [Pre training model & Logs](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (access code: yc1r )  |
 | Online operation | [notebook](https://aistudio.baidu.com/aistudio/projectdetail/2253839) , [Script](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2270473)|
