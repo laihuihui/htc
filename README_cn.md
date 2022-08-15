@@ -44,7 +44,7 @@
 | **htc-R-50-FPN(mine)**  | Paddlepaddle | **42.6** | **37.9** |
 
 **权重及日志下载**
-权重地址：[百度网盘](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (提取码：yc1r )
+权重地址：[百度网盘](https://pan.baidu.com/s/1RtCYvey8PXRbfgHJe4ujIQ) (提取码：yc1r )
 
 权重对应：
 ```
@@ -177,7 +177,7 @@ Epoch: [0] [   0/7329] learning_rate: 0.000020 loss_rpn_cls: 0.691306 loss_rpn_r
 ```bash
 python tools/eval.py -c $config_file -o weights=$weight_file
 ```
-可以使用 [百度网盘](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (提取码：yc1r ) 中的 `weights/output/htc_r50_fpn_1x_coco/model_final.pdparams` 预训练模型进行评估
+可以使用 [百度网盘](https://pan.baidu.com/s/1RtCYvey8PXRbfgHJe4ujIQ) (提取码：yc1r ) 中的 `weights/output/htc_r50_fpn_1x_coco/model_final.pdparams` 预训练模型进行评估
 
 
 ## 七、模型信息
@@ -191,5 +191,5 @@ python tools/eval.py -c $config_file -o weights=$weight_file
 | 框架版本 | Paddle 2.1.2 |
 | 应用场景 | 目标检测、实例分割 |
 | 支持硬件 | GPU、CPU |
-| 下载链接 | [百度网盘](https://pan.baidu.com/s/1fThnatGEWrfFm3Q1fagBjQ) (提取码：yc1r )  |
+| 下载链接 | [百度网盘](https://pan.baidu.com/s/1RtCYvey8PXRbfgHJe4ujIQ) (提取码：yc1r )  |
 | 在线运行 | [notebook任务](https://aistudio.baidu.com/aistudio/projectdetail/2253839) 、 [脚本任务](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2270473)|
